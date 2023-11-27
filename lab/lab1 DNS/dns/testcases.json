@@ -1,0 +1,679 @@
+{
+  "testcases": [
+    {
+      "input": [
+        "pic1.zhimg.com",
+        "pic2.zhimg.com",
+        "pic3.zhimg.com",
+        "pic4.zhimg.com",
+        "static.zhimg.com",
+        "picb.zhiming.com"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "weixine.ustc.edu.cn",
+        "www.nader.org",
+        "www.rosenbaum.com",
+        "frami.biz",
+        "www.gerhold.net"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "rodriguez.com",
+        "kihn.com",
+        "www.kuphal.info",
+        "kuhlman.biz",
+        "marquardt.info",
+        "hayes.com"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "funk.biz",
+        "pouros.com",
+        "reynolds.com",
+        "www.kihn.com",
+        "www.schuppe.info"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "www.kertzmann.com",
+        "beier.info",
+        "www.swaniawski.info",
+        "www.ratke.com",
+        "www.huel.com",
+        "weimann.com"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "osinski.net",
+        "www.kuphal.net",
+        "oreilly.info",
+        "www.cormier.com",
+        "www.mcclure.com"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "www.braun.org",
+        "www.mcclure.com",
+        "www.windler.com",
+        "www.grimes.com",
+        "wunsch.com",
+        "larkin.org"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "armstrong.info",
+        "herzog.info",
+        "www.reichel.org",
+        "www.bartoletti.net",
+        "schumm.org"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "stanton.com",
+        "kunde.com",
+        "www.rutherford.com",
+        "www.brekke.info",
+        "www.hane.info",
+        "collins.org"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "turner.com",
+        "www.satterfield.com",
+        "www.dietrich.net",
+        "www.cassin.net",
+        "hahn.net",
+        "www.lesch.org"
+      ],
+      "output": [
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        },
+        {
+          "rcode": 3,
+          "ip": "0.0.0.0"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "www.dooley.com",
+        "www.gislason.net",
+        "www.harris.net",
+        "gleason.biz",
+        "www.skiles.biz",
+        "vandervort.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "88.34.195.137"
+        },
+        {
+          "rcode": 0,
+          "ip": "59.254.176.116"
+        },
+        {
+          "rcode": 0,
+          "ip": "81.239.205.150"
+        },
+        {
+          "rcode": 0,
+          "ip": "30.252.168.216"
+        },
+        {
+          "rcode": 0,
+          "ip": "130.196.139.127"
+        },
+        {
+          "rcode": 0,
+          "ip": "167.27.172.236"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "www.feil.com",
+        "hickle.com",
+        "jakubowski.com",
+        "www.klocko.biz",
+        "www.gerlach.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "174.137.12.27"
+        },
+        {
+          "rcode": 0,
+          "ip": "189.249.164.20"
+        },
+        {
+          "rcode": 0,
+          "ip": "206.156.76.238"
+        },
+        {
+          "rcode": 0,
+          "ip": "4.179.187.92"
+        },
+        {
+          "rcode": 0,
+          "ip": "190.168.255.17"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "volkman.com",
+        "www.auer.com",
+        "www.glover.net",
+        "www.fadel.info",
+        "www.schaefer.biz",
+        "www.mante.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "70.194.177.145"
+        },
+        {
+          "rcode": 0,
+          "ip": "251.251.104.19"
+        },
+        {
+          "rcode": 0,
+          "ip": "91.161.193.166"
+        },
+        {
+          "rcode": 0,
+          "ip": "172.195.219.31"
+        },
+        {
+          "rcode": 0,
+          "ip": "1.120.18.72"
+        },
+        {
+          "rcode": 0,
+          "ip": "134.126.133.149"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "waelchi.com",
+        "www.feest.com",
+        "www.carter.com",
+        "www.zieme.info",
+        "little.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "114.134.190.238"
+        },
+        {
+          "rcode": 0,
+          "ip": "169.75.188.101"
+        },
+        {
+          "rcode": 0,
+          "ip": "196.207.108.107"
+        },
+        {
+          "rcode": 0,
+          "ip": "142.69.74.21"
+        },
+        {
+          "rcode": 0,
+          "ip": "102.118.197.12"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "hayes.info",
+        "www.batz.net",
+        "feil.com",
+        "www.gleichner.com",
+        "wintheiser.com",
+        "little.biz"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "69.16.102.97"
+        },
+        {
+          "rcode": 0,
+          "ip": "98.129.226.17"
+        },
+        {
+          "rcode": 0,
+          "ip": "34.90.172.183"
+        },
+        {
+          "rcode": 0,
+          "ip": "243.16.239.229"
+        },
+        {
+          "rcode": 0,
+          "ip": "18.133.78.151"
+        },
+        {
+          "rcode": 0,
+          "ip": "127.175.198.144"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "www.goyette.com",
+        "www.johnston.com",
+        "www.langosh.com",
+        "pfannerstill.com",
+        "www.klocko.info"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "27.174.9.251"
+        },
+        {
+          "rcode": 0,
+          "ip": "145.21.185.104"
+        },
+        {
+          "rcode": 0,
+          "ip": "206.211.95.196"
+        },
+        {
+          "rcode": 0,
+          "ip": "224.0.51.5"
+        },
+        {
+          "rcode": 0,
+          "ip": "21.39.157.157"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "schoen.com",
+        "www.king.com",
+        "www.feest.net",
+        "ward.org",
+        "www.roberts.com",
+        "thiel.com",
+        "www.ryan.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "20.15.193.216"
+        },
+        {
+          "rcode": 0,
+          "ip": "120.106.0.140"
+        },
+        {
+          "rcode": 0,
+          "ip": "152.53.148.55"
+        },
+        {
+          "rcode": 0,
+          "ip": "97.50.76.88"
+        },
+        {
+          "rcode": 0,
+          "ip": "150.76.204.97"
+        },
+        {
+          "rcode": 0,
+          "ip": "1.133.116.160"
+        },
+        {
+          "rcode": 0,
+          "ip": "219.37.167.25"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "mohr.biz",
+        "www.morar.com",
+        "www.lowe.net",
+        "feil.info",
+        "zieme.com",
+        "www.powlowski.org",
+        "www.kuphal.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "114.235.150.30"
+        },
+        {
+          "rcode": 0,
+          "ip": "77.133.182.146"
+        },
+        {
+          "rcode": 0,
+          "ip": "35.61.66.73"
+        },
+        {
+          "rcode": 0,
+          "ip": "122.113.207.76"
+        },
+        {
+          "rcode": 0,
+          "ip": "68.62.38.225"
+        },
+        {
+          "rcode": 0,
+          "ip": "140.16.210.186"
+        },
+        {
+          "rcode": 0,
+          "ip": "199.218.132.152"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "www.baidu.com",
+        "www.douban.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "*"
+        },
+        {
+          "rcode": 0,
+          "ip": "*"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "input": [
+        "www.bilibili.com",
+        "www.youdao.com"
+      ],
+      "output": [
+        {
+          "rcode": 0,
+          "ip": "*"
+        },
+        {
+          "rcode": 0,
+          "ip": "*"
+        }
+      ],
+      "rank": 5
+    }
+  ]
+}

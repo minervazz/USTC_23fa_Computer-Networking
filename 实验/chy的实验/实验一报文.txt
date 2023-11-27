@@ -1,0 +1,50 @@
+成功！您的提交显示在此页面上。该提交的确认编号为 f5795f9a-792c-40a2-922b-54cba0b25759。请复制并保存此编号以作为提交证明。在“我的成绩”中查看您的所有提交确认。
+No.     Time                          Source                Destination           Protocol Length Info
+   1399 2022-09-11 20:56:49.404237    114.214.252.244       128.119.245.12        HTTP     547    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 
+
+Frame 1399: 547 bytes on wire (4376 bits), 547 bytes captured (4376 bits) on interface \Device\NPF_{DAE83349-57D2-442D-9C46-E61E45E6B3EF}, id 0
+Ethernet II, Src: IntelCor_ef:93:5e (e0:d4:e8:ef:93:5e), Dst: Hangzhou_35:8a:e2 (ac:74:09:35:8a:e2)
+Internet Protocol Version 4, Src: 114.214.252.244, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 63963, Dst Port: 80, Seq: 1, Ack: 1, Len: 493
+Hypertext Transfer Protocol
+    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 HBPC/12.0.0.300\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html]
+    [HTTP request 1/2]
+    [Response in frame: 1422]
+    [Next request in frame: 1445]
+
+No.     Time                          Source                Destination           Protocol Length Info
+   1422 2022-09-11 20:56:49.676822    128.119.245.12        114.214.252.244       HTTP     492    HTTP/1.1 200 OK  (text/html)
+
+Frame 1422: 492 bytes on wire (3936 bits), 492 bytes captured (3936 bits) on interface \Device\NPF_{DAE83349-57D2-442D-9C46-E61E45E6B3EF}, id 0
+Ethernet II, Src: Hangzhou_35:8a:e2 (ac:74:09:35:8a:e2), Dst: IntelCor_ef:93:5e (e0:d4:e8:ef:93:5e)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 114.214.252.244
+Transmission Control Protocol, Src Port: 80, Dst Port: 63963, Seq: 1, Ack: 494, Len: 438
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Sun, 11 Sep 2022 12:56:50 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.30 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Sun, 11 Sep 2022 05:59:01 GMT\r\n
+    ETag: "51-5e86079cbdf11"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 81\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.272585000 seconds]
+    [Request in frame: 1399]
+    [Next request in frame: 1445]
+    [Next response in frame: 1464]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html]
+    File Data: 81 bytes
+Line-based text data: text/html (3 lines)

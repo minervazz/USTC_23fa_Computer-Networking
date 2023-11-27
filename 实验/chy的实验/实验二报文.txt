@@ -1,0 +1,49 @@
+No.     Time                          Source                Destination           Protocol Length Info
+    133 2022-09-18 15:38:19.785035    192.168.50.51         128.119.245.12        HTTP     546    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1 
+
+Frame 133: 546 bytes on wire (4368 bits), 546 bytes captured (4368 bits) on interface \Device\NPF_{DAE83349-57D2-442D-9C46-E61E45E6B3EF}, id 0
+Ethernet II, Src: IntelCor_ef:93:5e (e0:d4:e8:ef:93:5e), Dst: c2:1b:15:c7:f8:56 (c2:1b:15:c7:f8:56)
+Internet Protocol Version 4, Src: 192.168.50.51, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 60489, Dst Port: 80, Seq: 1, Ack: 1, Len: 492
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 HBPC/12.0.0.300\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: zh-CN,zh;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    [HTTP request 1/2]
+    [Response in frame: 139]
+    [Next request in frame: 141]
+
+No.     Time                          Source                Destination           Protocol Length Info
+    139 2022-09-18 15:38:20.674969    128.119.245.12        192.168.50.51         HTTP     540    HTTP/1.1 200 OK  (text/html)
+
+Frame 139: 540 bytes on wire (4320 bits), 540 bytes captured (4320 bits) on interface \Device\NPF_{DAE83349-57D2-442D-9C46-E61E45E6B3EF}, id 0
+Ethernet II, Src: c2:1b:15:c7:f8:56 (c2:1b:15:c7:f8:56), Dst: IntelCor_ef:93:5e (e0:d4:e8:ef:93:5e)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.50.51
+Transmission Control Protocol, Src Port: 80, Dst Port: 60489, Seq: 1, Ack: 493, Len: 486
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Sun, 18 Sep 2022 07:38:22 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.30 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Sun, 18 Sep 2022 05:59:02 GMT\r\n
+    ETag: "80-5e8ed4abaeae1"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 128\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.889934000 seconds]
+    [Request in frame: 133]
+    [Next request in frame: 141]
+    [Next response in frame: 143]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    File Data: 128 bytes
+Line-based text data: text/html (4 lines)

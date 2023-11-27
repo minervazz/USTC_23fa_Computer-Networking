@@ -1,0 +1,40 @@
+#! /usr/bin/env python3
+from onl.utils import Testing
+from onl.sim import Environment
+from client import DNSClient
+from server import DNSServer
+
+
+class Tester(Testing):
+    def judge_testcase(self, input, cfg, debug) -> list:
+        assert cfg is None
+        assert type(input) == list
+        env = Environment()
+        client = DNSClient(env, urls=input, debug=True)
+        server = DNSServer(env, True)
+        client.out = server
+        server.out = client
+        env.run(client.proc)
+
+        return client.responses
+
+    def compare_output_with_expected(self, output, expected_output) -> bool:
+        assert type(output) == list
+        assert type(expected_output) == list
+        if len(output) != len(expected_output):
+            return False
+        for i in range(len(output)):
+            resp = output[i]
+            expected = expected_output[i]
+            if resp["rcode"] != expected["rcode"]:
+                return False
+            if expected["ip"] == "*":
+                continue
+            if resp["ip"] != expected["ip"]:
+                return False
+        return True
+
+
+if __name__ == "__main__":
+    tester = Tester(__file__)
+    tester.run()
