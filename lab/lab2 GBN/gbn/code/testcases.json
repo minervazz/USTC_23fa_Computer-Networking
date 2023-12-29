@@ -1,0 +1,64 @@
+{
+  "testcases": [
+    {
+      "config": {
+        "seqno_width": 2,
+        "window_size": 2,
+        "loss_rate": 0,
+        "max_delay": 10,
+        "timeout": 30
+      },
+      "input": "hello world!",
+      "output": "hello world!",
+      "rank": 20
+    },
+    {
+      "config": {
+        "seqno_width": 2,
+        "window_size": 3,
+        "loss_rate": 0.2,
+        "max_delay": 20,
+        "timeout": 30
+      },
+      "input": "this is a longer text",
+      "output": "this is a longer text",
+      "rank": 20
+    },
+    {
+      "config": {
+        "seqno_width": 3,
+        "window_size": 5,
+        "loss_rate": 0.3,
+        "max_delay": 20,
+        "timeout": 60
+      },
+      "input": "pta2WW5KyHBNT0mC518kzzTy1fZSmswDkQbiB97Ppta2WW5KyHBNT0mC518kzzTy1fZSmswDkQbiB97P",
+      "output": "pta2WW5KyHBNT0mC518kzzTy1fZSmswDkQbiB97Ppta2WW5KyHBNT0mC518kzzTy1fZSmswDkQbiB97P",
+      "rank": 20
+    },
+    {
+      "config": {
+        "seqno_width": 3,
+        "window_size": 7,
+        "loss_rate": 0.3,
+        "max_delay": 40,
+        "timeout": 30
+      },
+      "input": "Now all glory to God, who is able, through his mighty power at work within us, to accomplish infinitely more than we might ask or think. Glory to him in the church and in Christ Jesus through all generations forever and ever! Amen.",
+      "output": "Now all glory to God, who is able, through his mighty power at work within us, to accomplish infinitely more than we might ask or think. Glory to him in the church and in Christ Jesus through all generations forever and ever! Amen.",
+      "rank": 20
+    },
+    {
+      "config": {
+        "seqno_width": 4,
+        "window_size": 10,
+        "loss_rate": 0.1,
+        "max_delay": 10,
+        "timeout": 40
+      },
+      "output": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula\neget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient\nmontes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque\neu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,\nfringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,\nimperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.\nInteger tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate\neleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,\nenim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus\nviverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam\nultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.\nEtiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper\nlibero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,\nluctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt\ntempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam\nsit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit\namet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum\nsodales, augue velit cursus nunc",
+      "input": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula\neget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient\nmontes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque\neu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,\nfringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,\nimperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.\nInteger tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate\neleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,\nenim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus\nviverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam\nultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.\nEtiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper\nlibero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,\nluctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt\ntempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam\nsit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit\namet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum\nsodales, augue velit cursus nunc",
+      "rank": 20
+    }
+  ]
+}

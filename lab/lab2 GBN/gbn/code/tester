@@ -1,0 +1,48 @@
+#! /usr/bin/env python3
+
+from onl.utils import Testing
+
+from onl.sim import Environment
+from onl.netdev import Wire
+from sender import GBNSender
+from receiver import GBNReceiver
+
+
+class Tester(Testing):
+    def judge_testcase(self, input, cfg, debug) -> str:
+        seqno_width = int(cfg["seqno_width"])
+        window_size = int(cfg["window_size"])
+        max_delay = int(cfg["max_delay"])
+        timeout = float(cfg["timeout"])
+        loss_rate = float(cfg["loss_rate"])
+        assert type(input) == str
+        message = input
+        env = Environment()
+        sender = GBNSender(
+            env,
+            seqno_width=seqno_width,
+            timeout=timeout,
+            window_size=window_size,
+            message=message,
+            debug=debug,
+        )
+        receiver = GBNReceiver(
+            env,
+            seqno_width=seqno_width,
+            window_size=window_size,
+            debug=debug
+        )
+        wire1 = Wire(env, delay_dist=lambda: max_delay, loss_rate=loss_rate)
+        wire2 = Wire(env, delay_dist=lambda: max_delay, loss_rate=loss_rate)
+        sender.out = wire1
+        wire1.out = receiver
+        receiver.out = wire2
+        wire2.out = sender
+
+        env.run(sender.proc)
+        return receiver.message
+
+
+if __name__ == '__main__':
+    tester = Tester(__file__)
+    tester.run()
